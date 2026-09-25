@@ -68,3 +68,10 @@ Importa `postman/InventarioBackend.postman_collection.json` y ejecuta los casos 
 
 ## Solicitudes de cambio de la Parte II
 SC-A, SC-B, SC-C y SC-D **no están preimplementadas** porque el PDF indica que el docente asigna una de ellas individualmente durante la evaluación y debe desarrollarse en la rama `sc-<letra>-<apellido>` con al menos tres commits.
+## Verificación funcional
+
+Se realizaron pruebas funcionales de los módulos de categorías, productos, áreas y despachos mediante Postman.
+
+También se verificaron las reglas de negocio RN-01, RN-02, RN-03 y RN-04, así como el reporte de productos despachados y la anulación de despachos.
+
+Las pruebas contemplaron respuestas HTTP 200, 201, 400, 404 y 409 según los casos definidos para StockAndes.
